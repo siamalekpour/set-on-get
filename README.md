@@ -6,7 +6,7 @@ Common checks are:
 * Add requested param to the end of the current URI
 
 ## Usage:
-Include thie script in your HTML file and call the setOnGet() function passing a variable name as string and the desired value for it.
+Include thie script in your HTML file and call the `setOnGet()` function passing a variable name as string and the desired value for it.
 ```javascript
 setOnGet('myparam', 123);
 ```
