@@ -5,7 +5,7 @@ function setOnGet(varname, value){
     url = url.replace(oldParam, ''); // Remove old var if exists
     url += separator + varname + '=' + value; // Add new param to end of string;
 
-    // Remove any anolmalies;
+    // Remove any anomalies;
     url = url.replace(/&&/gi, '&');
     url = url.replace(/\?&/gi, '?');
 
